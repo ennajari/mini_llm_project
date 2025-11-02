@@ -1,4 +1,4 @@
-# 📐 Formules Mathématiques - Référence Rapide
+# Formules Mathématiques - Référence Rapide
 
 ## Self-Attention
 

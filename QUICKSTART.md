@@ -1,4 +1,4 @@
-# 🚀 Guide de Démarrage Rapide
+# Guide de Démarrage Rapide
 
 ## Installation (5 minutes)
 
@@ -15,7 +15,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## 📚 Ordre Recommandé
+## Ordre Recommandé
 
 ### Pour les débutants:
 **Suivez l'ordre numérique** (environ 2-3 heures):
@@ -36,7 +36,7 @@ jupyter notebook
    - Assembler tous les composants
    - Créer un bloc complet
    
-5. **5_Complete_Mini_LLM.ipynb** (60 min) ⭐
+5. **5_Complete_Mini_LLM.ipynb** (60 min)
    - Entraîner un modèle complet
    - Visualiser les résultats
 
@@ -46,30 +46,30 @@ jupyter notebook
 - Explications complètes incluses
 - Modèle fonctionnel from scratch
 
-## 🎯 Ce que vous allez construire
+## Ce que vous allez construire
 
 Un mini-LLM capable de:
-- ✅ Classifier des sentiments (positif/négatif)
-- ✅ Visualiser ses attention patterns
-- ✅ Être entraîné sur vos données
-- ✅ Être étendu pour d'autres tâches
+- Classifier des sentiments (positif/négatif)
+- Visualiser ses attention patterns
+- Être entraîné sur vos données
+- Être étendu pour d'autres tâches
 
-## 📊 Résultats Attendus
+## Résultats Attendus
 
 Après ce workshop:
-- ✅ Modèle fonctionnel créé from scratch
-- ✅ Compréhension profonde de l'attention
-- ✅ Visualisations interprétables
-- ✅ Base solide pour les LLMs avancés
+- Modèle fonctionnel créé from scratch
+- Compréhension profonde de l'attention
+- Visualisations interprétables
+- Base solide pour les LLMs avancés
 
-## 💡 Conseils
+## Conseils
 
 1. **Exécutez les cellules dans l'ordre**
 2. **Lisez les commentaires** (très détaillés)
 3. **Expérimentez** avec les paramètres
 4. **Visualisez** à chaque étape
 
-## 🐛 Résolution de Problèmes
+## Résolution de Problèmes
 
 ### Erreur: "Module not found"
 ```bash
@@ -89,7 +89,7 @@ d_model = 64      # Au lieu de 512
 num_layers = 2    # Au lieu de 6
 ```
 
-## 📝 Structure des Fichiers
+## Structure des Fichiers
 
 ```
 .
@@ -100,10 +100,10 @@ num_layers = 2    # Au lieu de 6
 ├── 2_Multi_Head_Attention.ipynb  # Multi-head
 ├── 3_Positional_Encoding.ipynb   # Encodage position
 ├── 4_Transformer_Encoder.ipynb   # Bloc encoder
-└── 5_Complete_Mini_LLM.ipynb     # Modèle complet ⭐
+└── 5_Complete_Mini_LLM.ipynb     # Modèle complet
 ```
 
-## 🎓 Après le Workshop
+## Après le Workshop
 
 Vous serez capable de:
 1. Comprendre les papers sur les Transformers
@@ -111,14 +111,14 @@ Vous serez capable de:
 3. Fine-tuner des modèles pré-entraînés
 4. Lire le code de GPT, BERT, etc.
 
-## 🚀 Next Steps
+## Next Steps
 
 Après avoir maîtrisé ces notebooks:
 - **Part II**: Decoder & génération de texte
 - **Part III**: Training at scale
 - **Part IV**: Fine-tuning & applications
 
-## 📚 Ressources Supplémentaires
+## Ressources Supplémentaires
 
 - [Paper Original: "Attention Is All You Need"](https://arxiv.org/abs/1706.03762)
 - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
@@ -126,7 +126,7 @@ Après avoir maîtrisé ces notebooks:
 
 ---
 
-**Prêt à commencer? Lancez Jupyter et ouvrez le premier notebook!** 🎉
+**Prêt à commencer? Lancez Jupyter et ouvrez le premier notebook!**
 
 ```bash
 jupyter notebook 1_Self_Attention.ipynb

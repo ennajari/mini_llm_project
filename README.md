@@ -1,20 +1,20 @@
 # Build an LLM from Scratch - Part I: Attention & Transformer Core
 
-## 📚 Description du Workshop
+## Description du Workshop
 
 Ce workshop vous guide dans la construction d'un Large Language Model (LLM) **from scratch** en utilisant PyTorch. Vous allez implémenter et comprendre les mécanismes fondamentaux qui alimentent des modèles comme GPT, BERT, et autres Transformers modernes.
 
-## 🎯 Objectifs d'apprentissage
+## Objectifs d'apprentissage
 
-1. ✅ **Self-Attention Mechanism** - Le cœur des Transformers
-2. ✅ **Multi-Head Attention** - Apprentissage de patterns multiples
-3. ✅ **Positional Encoding** - Encodage de la position des mots
-4. ✅ **Transformer Encoder Block** - Architecture complète
-5. ✅ **Visualisation** - Comprendre ce que le modèle apprend
+1. **Self-Attention Mechanism** - Le cœur des Transformers
+2. **Multi-Head Attention** - Apprentissage de patterns multiples
+3. **Positional Encoding** - Encodage de la position des mots
+4. **Transformer Encoder Block** - Architecture complète
+5. **Visualisation** - Comprendre ce que le modèle apprend
 
-## 📦 Structure des Notebooks
+## Structure des Notebooks
 
-### 1️⃣ `1_Self_Attention.ipynb`
+### `1_Self_Attention.ipynb`
 **Comprendre le mécanisme d'attention de base**
 - Implémentation du scaled dot-product attention
 - Visualisation des poids d'attention
@@ -27,7 +27,7 @@ Ce workshop vous guide dans la construction d'un Large Language Model (LLM) **fr
 - L'importance du scaling par √d_k
 - Interprétation des heatmaps d'attention
 
-### 2️⃣ `2_Multi_Head_Attention.ipynb`
+### `2_Multi_Head_Attention.ipynb`
 **Apprentissage de relations multiples en parallèle**
 - Implémentation du multi-head attention
 - Comparaison 1 tête vs multi-têtes
@@ -40,7 +40,7 @@ Ce workshop vous guide dans la construction d'un Large Language Model (LLM) **fr
 - Architecture et implémentation PyTorch
 - Trade-offs en termes de paramètres
 
-### 3️⃣ `3_Positional_Encoding.ipynb`
+### `3_Positional_Encoding.ipynb`
 **Ajouter l'information de position**
 - Encodage sinusoïdal (original Transformer)
 - Alternatives (learned positional encoding)
@@ -53,7 +53,7 @@ Ce workshop vous guide dans la construction d'un Large Language Model (LLM) **fr
 - Interprétation des fréquences
 - Distance relative entre positions
 
-### 4️⃣ `4_Transformer_Encoder.ipynb`
+### `4_Transformer_Encoder.ipynb`
 **Assembler tous les composants**
 - Layer Normalization
 - Feed-Forward Networks
@@ -67,7 +67,7 @@ Ce workshop vous guide dans la construction d'un Large Language Model (LLM) **fr
 - Comment empiler les couches
 - Exemple d'application (classification)
 
-### 5️⃣ `5_Complete_Mini_LLM.ipynb` ⭐
+### `5_Complete_Mini_LLM.ipynb`
 **Synthèse finale - Un LLM fonctionnel!**
 - Architecture complète from scratch
 - Entraînement sur toy dataset
@@ -81,7 +81,7 @@ Ce workshop vous guide dans la construction d'un Large Language Model (LLM) **fr
 - Pipeline d'entraînement
 - Modèle sauvegardable et réutilisable
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Créer un environnement virtuel
@@ -94,7 +94,7 @@ venv\Scripts\activate  # Windows
 pip install torch numpy matplotlib seaborn jupyter
 ```
 
-## 📖 Utilisation
+## Utilisation
 
 ### Option 1: Suivre l'ordre recommandé
 ```bash
@@ -111,7 +111,7 @@ Puis ouvrez les notebooks dans l'ordre:
 ### Option 2: Aller directement au modèle complet
 Si vous êtes pressé, ouvrez directement `5_Complete_Mini_LLM.ipynb` qui contient tout le code avec explications.
 
-## 🎓 Concepts Clés Expliqués
+## Concepts Clés Expliqués
 
 ### Self-Attention
 ```
@@ -150,17 +150,17 @@ Block(x):
   return x
 ```
 
-## 📊 Résultats Attendus
+## Résultats Attendus
 
 Après avoir complété les notebooks, vous aurez:
 
-✅ Un modèle Transformer fonctionnel  
-✅ Compréhension profonde de l'attention  
-✅ Capacité à visualiser et interpréter les attention maps  
-✅ Code modulaire et réutilisable  
-✅ Base solide pour explorer des architectures plus complexes  
+Un modèle Transformer fonctionnel  
+Compréhension profonde de l'attention  
+Capacité à visualiser et interpréter les attention maps  
+Code modulaire et réutilisable  
+Base solide pour explorer des architectures plus complexes  
 
-## 🔍 Visualisations Incluses
+## Visualisations Incluses
 
 - **Attention Heatmaps**: Voir quels mots le modèle regarde
 - **Training Curves**: Loss et accuracy au fil du temps
@@ -168,7 +168,7 @@ Après avoir complété les notebooks, vous aurez:
 - **Multi-head Comparisons**: Comparer différentes têtes
 - **Layer Analysis**: Évolution des représentations
 
-## 📚 Pour Aller Plus Loin
+## Pour Aller Plus Loin
 
 ### Papers à lire:
 1. **"Attention Is All You Need"** (Vaswani et al., 2017)
@@ -185,7 +185,7 @@ Après avoir complété les notebooks, vous aurez:
 - [Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
 - [Hugging Face Transformers Documentation](https://huggingface.co/docs/transformers/)
 
-## 🛠️ Customisation
+## Customisation
 
 Le code est modulaire et peut être facilement adapté pour:
 - Différentes tailles de modèles
@@ -205,7 +205,7 @@ model = MiniLLM(
 )
 ```
 
-## 💡 Tips & Best Practices
+## Tips & Best Practices
 
 ### Pour l'entraînement:
 - Commencer avec un petit modèle pour debugger
@@ -223,7 +223,7 @@ model = MiniLLM(
 - Tester avec des batch_size=1 d'abord
 - Utiliser des assertions pour valider les dimensions
 
-## 🤝 Contribution
+## Contribution
 
 Ce workshop est conçu pour être éducatif. N'hésitez pas à:
 - Expérimenter avec le code
@@ -231,20 +231,20 @@ Ce workshop est conçu pour être éducatif. N'hésitez pas à:
 - Tester sur vos données
 - Partager vos découvertes
 
-## 📝 Notes Importantes
+## Notes Importantes
 
-⚠️ **Ce code est à but éducatif**
+**Ce code est à but éducatif**
 - Optimisé pour la clarté, pas la performance
 - Pour la production, utilisez des bibliothèques comme Hugging Face
 - Les toy datasets sont pour la démonstration
 
-✨ **Points forts du code:**
+**Points forts du code:**
 - Annotations détaillées en français
 - Explications étape par étape
 - Visualisations interactives
 - Architecture modulaire
 
-## 🎯 Livrables du Workshop
+## Livrables du Workshop
 
 À la fin de ce workshop, vous devez produire:
 
@@ -252,14 +252,14 @@ Ce workshop est conçu pour être éducatif. N'hésitez pas à:
 2. **Visualisations d'attention** montrant les patterns appris ✓
 3. **Courte explication** de vos résultats (déjà dans les notebooks) ✓
 
-## 📧 Support
+## Support
 
 Si vous avez des questions:
 1. Consultez d'abord les commentaires dans le code
 2. Regardez les cellules de visualisation
 3. Expérimentez avec différents paramètres
 
-## 🎉 Félicitations!
+## Félicitations!
 
 Vous avez maintenant les outils pour comprendre et construire des LLMs modernes!
 
@@ -270,6 +270,6 @@ Vous avez maintenant les outils pour comprendre et construire des LLMs modernes!
 
 ---
 
-**Happy Learning! 🚀**
+**Happy Learning! **
 
 *Build, Learn, Iterate*
